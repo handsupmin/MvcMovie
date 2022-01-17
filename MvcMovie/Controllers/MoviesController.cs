@@ -28,7 +28,7 @@ namespace MvcMovie.Controllers
 
             var movies = from m in _context.Movie
                          select m;
-            // test
+
             if (!string.IsNullOrEmpty(searchString))
             {
                 movies = movies.Where(s => s.Title.Contains(searchString));
