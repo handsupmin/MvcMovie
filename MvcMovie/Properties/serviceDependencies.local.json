@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "mssql1": {
-      "secretStore": null,
+      "resourceId": null,
       "type": "mssql.onprem",
-      "connectionId": "ConnectionStrings:MvcMovieContext"
+      "connectionId": "ConnectionStrings:MvcMovieContext",
+      "secretStore": null
     }
   }
 }
