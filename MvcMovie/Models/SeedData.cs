@@ -55,6 +55,15 @@ namespace MvcMovie.Models
                         Genre = "Western",
                         Rating = "R12",
                         Price = 3.99M
+                    },
+
+                    new Movie
+                    {
+                        Title = "Iron man",
+                        ReleaseDate = DateTime.Parse("2009-3-12"),
+                        Genre = "SF",
+                        Rating = "R15",
+                        Price = 15.99M
                     }
                 );
                 context.SaveChanges();
